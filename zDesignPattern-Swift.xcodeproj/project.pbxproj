@@ -107,7 +107,6 @@
 		0674941E1EB82AF2003C380D /* FADepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674933E1EB82AF1003C380D /* FADepartment.m */; };
 		0674941F1EB82AF2003C380D /* HRDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493401EB82AF1003C380D /* HRDepartment.m */; };
 		067494201EB82AF2003C380D /* Department.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493421EB82AF1003C380D /* Department.m */; };
-		067494331EB82AF2003C380D /* LoadBalancer.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493781EB82AF1003C380D /* LoadBalancer.m */; };
 		067494341EB82AF2003C380D /* WeeklyLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674937D1EB82AF1003C380D /* WeeklyLog.m */; };
 		067494351EB82AF2003C380D /* ActorBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493821EB82AF1003C380D /* ActorBuilder.m */; };
 		067494361EB82AF2003C380D /* AngelBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493851EB82AF1003C380D /* AngelBuilder.m */; };
@@ -369,8 +368,6 @@
 		067493401EB82AF1003C380D /* HRDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRDepartment.m; sourceTree = "<group>"; };
 		067493411EB82AF1003C380D /* Department.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Department.h; sourceTree = "<group>"; };
 		067493421EB82AF1003C380D /* Department.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Department.m; sourceTree = "<group>"; };
-		067493771EB82AF1003C380D /* LoadBalancer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadBalancer.h; sourceTree = "<group>"; };
-		067493781EB82AF1003C380D /* LoadBalancer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadBalancer.m; sourceTree = "<group>"; };
 		0674937C1EB82AF1003C380D /* WeeklyLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeeklyLog.h; sourceTree = "<group>"; };
 		0674937D1EB82AF1003C380D /* WeeklyLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeeklyLog.m; sourceTree = "<group>"; };
 		067493811EB82AF1003C380D /* ActorBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActorBuilder.h; sourceTree = "<group>"; };
@@ -1508,8 +1505,6 @@
 		067493761EB82AF1003C380D /* Singleton */ = {
 			isa = PBXGroup;
 			children = (
-				067493771EB82AF1003C380D /* LoadBalancer.h */,
-				067493781EB82AF1003C380D /* LoadBalancer.m */,
 				0674949F1EB9C471003C380D /* LoadBalancer.swift */,
 			);
 			path = Singleton;
@@ -1904,7 +1899,6 @@
 				067494051EB82AF2003C380D /* AccountState.m in Sources */,
 				0674943B1EB82AF2003C380D /* OperationAdapter.m in Sources */,
 				067494421EB82AF2003C380D /* DPJPGImage.m in Sources */,
-				067494331EB82AF2003C380D /* LoadBalancer.m in Sources */,
 				0674941E1EB82AF2003C380D /* FADepartment.m in Sources */,
 				067494171EB82AF2003C380D /* BankAccount.m in Sources */,
 				067493D21EB82AF2003C380D /* IgoChessmanFactory.m in Sources */,
