@@ -157,6 +157,7 @@
 		0674949A1EB9BF07003C380D /* SymbianEnvironmentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494991EB9BF07003C380D /* SymbianEnvironmentFactory.swift */; };
 		0674949C1EB9BF1D003C380D /* AndroidEnvironmentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0674949B1EB9BF1D003C380D /* AndroidEnvironmentFactory.swift */; };
 		0674949E1EB9BF36003C380D /* WindowsMobileEnvironmentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0674949D1EB9BF36003C380D /* WindowsMobileEnvironmentFactory.swift */; };
+		067494A01EB9C471003C380D /* LoadBalancer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0674949F1EB9C471003C380D /* LoadBalancer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -445,6 +446,7 @@
 		067494991EB9BF07003C380D /* SymbianEnvironmentFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymbianEnvironmentFactory.swift; sourceTree = "<group>"; };
 		0674949B1EB9BF1D003C380D /* AndroidEnvironmentFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AndroidEnvironmentFactory.swift; sourceTree = "<group>"; };
 		0674949D1EB9BF36003C380D /* WindowsMobileEnvironmentFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowsMobileEnvironmentFactory.swift; sourceTree = "<group>"; };
+		0674949F1EB9C471003C380D /* LoadBalancer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadBalancer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1508,6 +1510,7 @@
 			children = (
 				067493771EB82AF1003C380D /* LoadBalancer.h */,
 				067493781EB82AF1003C380D /* LoadBalancer.m */,
+				0674949F1EB9C471003C380D /* LoadBalancer.swift */,
 			);
 			path = Singleton;
 			sourceTree = "<group>";
@@ -2005,6 +2008,7 @@
 				0674940E1EB82AF2003C380D /* DPScreenLargerState.m in Sources */,
 				067494071EB82AF2003C380D /* OverdraftState.m in Sources */,
 				067494881EB98C41003C380D /* DPOperationController.swift in Sources */,
+				067494A01EB9C471003C380D /* LoadBalancer.swift in Sources */,
 				067493DC1EB82AF2003C380D /* VicePresident.m in Sources */,
 				067494681EB82F3D003C380D /* zTriangleShape.swift in Sources */,
 				067493FD1EB82AF2003C380D /* MementoCaretaker.m in Sources */,

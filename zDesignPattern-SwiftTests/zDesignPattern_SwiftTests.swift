@@ -25,7 +25,8 @@ class zDesignPattern_SwiftTests: XCTestCase {
         print("===========测试开始=============")
 //        tSimpleFactory()
 //        tFactoryMethod()
-        tAbstractFactory()
+//        tAbstractFactory()
+        tSingleton()
         print("===========测试结束============")
     }
     
@@ -63,6 +64,28 @@ class zDesignPattern_SwiftTests: XCTestCase {
         gameEvnFactory = WindowsMobileEnvironmentFactory()
         gameEvnFactory.createOperationController()
         gameEvnFactory.createInterfaceController()
+    }
+    
+    func tSingleton() -> Void {
+        let loadBalancer1 = LoadBalancer.sharedInstance
+        let loadBalancer2 = LoadBalancer.sharedInstance
+        let loadBalancer3 = LoadBalancer.sharedInstance
+        let loadBalancer4 = LoadBalancer.sharedInstance
+        
+        if loadBalancer1 == loadBalancer2 && loadBalancer2 == loadBalancer3 &&
+            loadBalancer3 == loadBalancer4{
+            print("负载服务器具有唯一性")
+        }
+        
+        loadBalancer1.addServerNamed("Server1")
+        loadBalancer2.addServerNamed("Server2")
+        loadBalancer3.addServerNamed("Server3")
+        loadBalancer4.addServerNamed("Server4")
+        
+        for _ in 1...10 {
+            let server = loadBalancer1.randomServer()
+            print(server)
+        }
     }
     
     func testPerformanceExample() {
