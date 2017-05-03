@@ -22,7 +22,10 @@ class zDesignPattern_SwiftTests: XCTestCase {
     }
     
     func testExample() {
-        tSimpleFactory()
+        print("===========测试开始=============")
+//        tSimpleFactory()
+        tFactoryMethod()
+        print("===========测试结束============")
     }
     
     func tSimpleFactory() {
@@ -40,6 +43,14 @@ class zDesignPattern_SwiftTests: XCTestCase {
         shape?.draw()
         shape?.erase()
         print("--------------")
+    }
+    
+    func tFactoryMethod() {
+        var imgReader = GifImageReaderFactory().createImageReader()
+        imgReader?.read();
+        
+        imgReader = JpgImageReaderFactory().createImageReader()
+        imgReader?.read()
     }
     
     func testPerformanceExample() {

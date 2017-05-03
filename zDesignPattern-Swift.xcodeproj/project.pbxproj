@@ -107,12 +107,6 @@
 		0674941E1EB82AF2003C380D /* FADepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674933E1EB82AF1003C380D /* FADepartment.m */; };
 		0674941F1EB82AF2003C380D /* HRDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493401EB82AF1003C380D /* HRDepartment.m */; };
 		067494201EB82AF2003C380D /* Department.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493421EB82AF1003C380D /* Department.m */; };
-		067494211EB82AF2003C380D /* LoggerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493461EB82AF1003C380D /* LoggerFactory.m */; };
-		067494221EB82AF2003C380D /* DataBaseLoggerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493491EB82AF1003C380D /* DataBaseLoggerFactory.m */; };
-		067494231EB82AF2003C380D /* FileLoggerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674934B1EB82AF1003C380D /* FileLoggerFactory.m */; };
-		067494241EB82AF2003C380D /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674934E1EB82AF1003C380D /* Logger.m */; };
-		067494251EB82AF2003C380D /* DatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493511EB82AF1003C380D /* DatabaseLogger.m */; };
-		067494261EB82AF2003C380D /* FileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493531EB82AF1003C380D /* FileLogger.m */; };
 		067494271EB82AF2003C380D /* SpringSkinFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493581EB82AF1003C380D /* SpringSkinFactory.m */; };
 		067494281EB82AF2003C380D /* SummerSkinFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674935A1EB82AF1003C380D /* SummerSkinFactory.m */; };
 		067494291EB82AF2003C380D /* SkinFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674935C1EB82AF1003C380D /* SkinFactory.m */; };
@@ -157,6 +151,12 @@
 		067494641EB82EF8003C380D /* zCircleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494631EB82EF8003C380D /* zCircleShape.swift */; };
 		067494681EB82F3D003C380D /* zTriangleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494671EB82F3C003C380D /* zTriangleShape.swift */; };
 		0674946A1EB833A2003C380D /* zShapeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494691EB833A2003C380D /* zShapeFactory.swift */; };
+		0674947C1EB9835C003C380D /* ImageReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0674947B1EB9835C003C380D /* ImageReader.swift */; };
+		0674947E1EB9859C003C380D /* GifImageReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0674947D1EB9859C003C380D /* GifImageReader.swift */; };
+		067494801EB985B5003C380D /* JpgImageReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0674947F1EB985B5003C380D /* JpgImageReader.swift */; };
+		067494821EB98613003C380D /* ImageReaderFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494811EB98613003C380D /* ImageReaderFactory.swift */; };
+		067494841EB986A6003C380D /* GifImageReaderFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494831EB986A6003C380D /* GifImageReaderFactory.swift */; };
+		067494861EB986BC003C380D /* JpgImageReaderFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494851EB986BC003C380D /* JpgImageReaderFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -368,18 +368,6 @@
 		067493401EB82AF1003C380D /* HRDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRDepartment.m; sourceTree = "<group>"; };
 		067493411EB82AF1003C380D /* Department.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Department.h; sourceTree = "<group>"; };
 		067493421EB82AF1003C380D /* Department.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Department.m; sourceTree = "<group>"; };
-		067493451EB82AF1003C380D /* LoggerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggerFactory.h; sourceTree = "<group>"; };
-		067493461EB82AF1003C380D /* LoggerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoggerFactory.m; sourceTree = "<group>"; };
-		067493481EB82AF1003C380D /* DataBaseLoggerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBaseLoggerFactory.h; sourceTree = "<group>"; };
-		067493491EB82AF1003C380D /* DataBaseLoggerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBaseLoggerFactory.m; sourceTree = "<group>"; };
-		0674934A1EB82AF1003C380D /* FileLoggerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileLoggerFactory.h; sourceTree = "<group>"; };
-		0674934B1EB82AF1003C380D /* FileLoggerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileLoggerFactory.m; sourceTree = "<group>"; };
-		0674934D1EB82AF1003C380D /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
-		0674934E1EB82AF1003C380D /* Logger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Logger.m; sourceTree = "<group>"; };
-		067493501EB82AF1003C380D /* DatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseLogger.h; sourceTree = "<group>"; };
-		067493511EB82AF1003C380D /* DatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseLogger.m; sourceTree = "<group>"; };
-		067493521EB82AF1003C380D /* FileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileLogger.h; sourceTree = "<group>"; };
-		067493531EB82AF1003C380D /* FileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileLogger.m; sourceTree = "<group>"; };
 		067493571EB82AF1003C380D /* SpringSkinFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringSkinFactory.h; sourceTree = "<group>"; };
 		067493581EB82AF1003C380D /* SpringSkinFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringSkinFactory.m; sourceTree = "<group>"; };
 		067493591EB82AF1003C380D /* SummerSkinFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummerSkinFactory.h; sourceTree = "<group>"; };
@@ -463,6 +451,12 @@
 		067494631EB82EF8003C380D /* zCircleShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = zCircleShape.swift; sourceTree = "<group>"; };
 		067494671EB82F3C003C380D /* zTriangleShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = zTriangleShape.swift; sourceTree = "<group>"; };
 		067494691EB833A2003C380D /* zShapeFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = zShapeFactory.swift; sourceTree = "<group>"; };
+		0674947B1EB9835C003C380D /* ImageReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageReader.swift; sourceTree = "<group>"; };
+		0674947D1EB9859C003C380D /* GifImageReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifImageReader.swift; sourceTree = "<group>"; };
+		0674947F1EB985B5003C380D /* JpgImageReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JpgImageReader.swift; sourceTree = "<group>"; };
+		067494811EB98613003C380D /* ImageReaderFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageReaderFactory.swift; sourceTree = "<group>"; };
+		067494831EB986A6003C380D /* GifImageReaderFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifImageReaderFactory.swift; sourceTree = "<group>"; };
+		067494851EB986BC003C380D /* JpgImageReaderFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JpgImageReaderFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1397,8 +1391,7 @@
 		067493441EB82AF1003C380D /* Role_Factory */ = {
 			isa = PBXGroup;
 			children = (
-				067493451EB82AF1003C380D /* LoggerFactory.h */,
-				067493461EB82AF1003C380D /* LoggerFactory.m */,
+				067494811EB98613003C380D /* ImageReaderFactory.swift */,
 				067493471EB82AF1003C380D /* Role_ConcreteFactory */,
 			);
 			path = Role_Factory;
@@ -1407,10 +1400,8 @@
 		067493471EB82AF1003C380D /* Role_ConcreteFactory */ = {
 			isa = PBXGroup;
 			children = (
-				067493481EB82AF1003C380D /* DataBaseLoggerFactory.h */,
-				067493491EB82AF1003C380D /* DataBaseLoggerFactory.m */,
-				0674934A1EB82AF1003C380D /* FileLoggerFactory.h */,
-				0674934B1EB82AF1003C380D /* FileLoggerFactory.m */,
+				067494831EB986A6003C380D /* GifImageReaderFactory.swift */,
+				067494851EB986BC003C380D /* JpgImageReaderFactory.swift */,
 			);
 			path = Role_ConcreteFactory;
 			sourceTree = "<group>";
@@ -1418,8 +1409,7 @@
 		0674934C1EB82AF1003C380D /* Role_Product */ = {
 			isa = PBXGroup;
 			children = (
-				0674934D1EB82AF1003C380D /* Logger.h */,
-				0674934E1EB82AF1003C380D /* Logger.m */,
+				0674947B1EB9835C003C380D /* ImageReader.swift */,
 				0674934F1EB82AF1003C380D /* Role_ConcreteProduct */,
 			);
 			path = Role_Product;
@@ -1428,10 +1418,8 @@
 		0674934F1EB82AF1003C380D /* Role_ConcreteProduct */ = {
 			isa = PBXGroup;
 			children = (
-				067493501EB82AF1003C380D /* DatabaseLogger.h */,
-				067493511EB82AF1003C380D /* DatabaseLogger.m */,
-				067493521EB82AF1003C380D /* FileLogger.h */,
-				067493531EB82AF1003C380D /* FileLogger.m */,
+				0674947D1EB9859C003C380D /* GifImageReader.swift */,
+				0674947F1EB985B5003C380D /* JpgImageReader.swift */,
 			);
 			path = Role_ConcreteProduct;
 			sourceTree = "<group>";
@@ -1925,6 +1913,7 @@
 				067493F11EB82AF2003C380D /* DPContext.m in Sources */,
 				067493EE1EB82AF2003C380D /* ExpressionNode.m in Sources */,
 				067493ED1EB82AF2003C380D /* CommandNode.m in Sources */,
+				067494841EB986A6003C380D /* GifImageReaderFactory.swift in Sources */,
 				067493E61EB82AF2003C380D /* AndNode.m in Sources */,
 				0674940C1EB82AF2003C380D /* DPState.m in Sources */,
 				0674940A1EB82AF2003C380D /* DPOffState.m in Sources */,
@@ -1947,7 +1936,6 @@
 				067493CA1EB82AF2003C380D /* EncryptFacade.m in Sources */,
 				067494001EB82AF2003C380D /* Player.m in Sources */,
 				067494091EB82AF2003C380D /* DPSwitch.m in Sources */,
-				067494211EB82AF2003C380D /* LoggerFactory.m in Sources */,
 				067494011EB82AF2003C380D /* Observer.m in Sources */,
 				067494461EB82AF2003C380D /* UnixImp.m in Sources */,
 				067494081EB82AF2003C380D /* RestrictedState.m in Sources */,
@@ -1960,7 +1948,6 @@
 				067494451EB82AF2003C380D /* LinuxImp.m in Sources */,
 				067494061EB82AF2003C380D /* NormalState.m in Sources */,
 				067493C61EB82AF2003C380D /* DPWindow.m in Sources */,
-				067494241EB82AF2003C380D /* Logger.m in Sources */,
 				067493D31EB82AF2003C380D /* AccessValidator.m in Sources */,
 				0674943A1EB82AF2003C380D /* Actor.m in Sources */,
 				067493F81EB82AF2003C380D /* DPMList.m in Sources */,
@@ -1968,6 +1955,7 @@
 				067494311EB82AF2003C380D /* SummerComboBox.m in Sources */,
 				067494181EB82AF2003C380D /* CurrentAccount.m in Sources */,
 				067494371EB82AF2003C380D /* DevilBuilder.m in Sources */,
+				067494801EB985B5003C380D /* JpgImageReader.swift in Sources */,
 				067493D61EB82AF2003C380D /* DPProxySearcher.m in Sources */,
 				067492141EB828B3003C380D /* ViewController.swift in Sources */,
 				067493F61EB82AF2003C380D /* DPMButton.m in Sources */,
@@ -1976,7 +1964,6 @@
 				0674944D1EB82AF2003C380D /* DPVideoFile.m in Sources */,
 				067493FA1EB82AF2003C380D /* DPMComponent.m in Sources */,
 				067494481EB82AF2003C380D /* DPImageImp.m in Sources */,
-				067494221EB82AF2003C380D /* DataBaseLoggerFactory.m in Sources */,
 				0674946A1EB833A2003C380D /* zShapeFactory.swift in Sources */,
 				067494301EB82AF2003C380D /* SpringComboBox.m in Sources */,
 				067493C91EB82AF2003C380D /* ScrollBarDecorator.m in Sources */,
@@ -1984,10 +1971,11 @@
 				067493E71EB82AF2003C380D /* SentenceNode.m in Sources */,
 				067493CF1EB82AF2003C380D /* BlackIgoChessman.m in Sources */,
 				067493E21EB82AF2003C380D /* FunctionButton.m in Sources */,
+				0674947E1EB9859C003C380D /* GifImageReader.swift in Sources */,
 				067493FC1EB82AF2003C380D /* Mediator.m in Sources */,
-				067494261EB82AF2003C380D /* FileLogger.m in Sources */,
 				067493E01EB82AF2003C380D /* MinimizeCommand.m in Sources */,
 				067493E81EB82AF2003C380D /* ActionNode.m in Sources */,
+				0674947C1EB9835C003C380D /* ImageReader.swift in Sources */,
 				067492121EB828B3003C380D /* AppDelegate.swift in Sources */,
 				067494391EB82AF2003C380D /* ActorController.m in Sources */,
 				067493D91EB82AF2003C380D /* Congress.m in Sources */,
@@ -2014,6 +2002,7 @@
 				067494101EB82AF2003C380D /* DPScreenNormalState.m in Sources */,
 				067493DD1EB82AF2003C380D /* PurchaseRequest.m in Sources */,
 				067494161EB82AF2003C380D /* Discount.m in Sources */,
+				067494861EB986BC003C380D /* JpgImageReaderFactory.swift in Sources */,
 				067493C51EB82AF2003C380D /* DPTextBox.m in Sources */,
 				0674942E1EB82AF2003C380D /* SummerTextField.m in Sources */,
 				067494281EB82AF2003C380D /* SummerSkinFactory.m in Sources */,
@@ -2024,15 +2013,14 @@
 				067493C81EB82AF2003C380D /* BlackBorderDecorator.m in Sources */,
 				0674943C1EB82AF2003C380D /* BinarySearch.m in Sources */,
 				067493CE1EB82AF2003C380D /* DPCoordinates.m in Sources */,
-				067494251EB82AF2003C380D /* DatabaseLogger.m in Sources */,
 				067493D41EB82AF2003C380D /* DPLogger.m in Sources */,
 				067493D51EB82AF2003C380D /* DPSearcher.m in Sources */,
 				067494321EB82AF2003C380D /* DPComboBox.m in Sources */,
-				067494231EB82AF2003C380D /* FileLoggerFactory.m in Sources */,
 				0674940B1EB82AF2003C380D /* DPOnState.m in Sources */,
 				067493D01EB82AF2003C380D /* WhiteIgoChessman.m in Sources */,
 				067493DF1EB82AF2003C380D /* HelpCommand.m in Sources */,
 				0674940D1EB82AF2003C380D /* DPScreen.m in Sources */,
+				067494821EB98613003C380D /* ImageReaderFactory.swift in Sources */,
 				067494411EB82AF2003C380D /* DPGIFImage.m in Sources */,
 				067493D11EB82AF2003C380D /* IgoChessman.m in Sources */,
 				067494441EB82AF2003C380D /* DPMatrix.m in Sources */,
@@ -2250,6 +2238,7 @@
 				0674922D1EB828B3003C380D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0674922E1EB828B3003C380D /* Build configuration list for PBXNativeTarget "zDesignPattern-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -2258,6 +2247,7 @@
 				067492301EB828B3003C380D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
