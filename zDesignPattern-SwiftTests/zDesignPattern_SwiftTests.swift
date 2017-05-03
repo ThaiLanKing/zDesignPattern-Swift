@@ -26,7 +26,8 @@ class zDesignPattern_SwiftTests: XCTestCase {
 //        tSimpleFactory()
 //        tFactoryMethod()
 //        tAbstractFactory()
-        tSingleton()
+//        tSingleton()
+        tPrototype()
         print("===========测试结束============")
     }
     
@@ -86,6 +87,25 @@ class zDesignPattern_SwiftTests: XCTestCase {
             let server = loadBalancer1.randomServer()
             print(server)
         }
+    }
+    
+    func tPrototype() -> Void {
+        let srcCustomer = Customer()
+        srcCustomer.address = Address("杭州下城区")
+        
+        print("srcCustomer address : \(srcCustomer.address?.addressStr)")
+        
+        let shallowCustomer = srcCustomer.shallowCopy()
+        print("shallowCustomer address : \(shallowCustomer.address?.addressStr)")
+        
+        let deepCustomer = srcCustomer.deepCopy()
+        print("deepCustomer address : \(deepCustomer.address?.addressStr)")
+        
+        srcCustomer.address?.addressStr = "上海静安区"
+        print("--------after change--------")
+        print("srcCustomer address : \(srcCustomer.address?.addressStr)")
+        print("shallowCustomer address : \(shallowCustomer.address?.addressStr)")
+        print("deepCustomer address : \(deepCustomer.address?.addressStr)")
     }
     
     func testPerformanceExample() {

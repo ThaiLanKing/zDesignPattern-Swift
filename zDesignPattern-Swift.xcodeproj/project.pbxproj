@@ -107,7 +107,6 @@
 		0674941E1EB82AF2003C380D /* FADepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674933E1EB82AF1003C380D /* FADepartment.m */; };
 		0674941F1EB82AF2003C380D /* HRDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493401EB82AF1003C380D /* HRDepartment.m */; };
 		067494201EB82AF2003C380D /* Department.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493421EB82AF1003C380D /* Department.m */; };
-		067494341EB82AF2003C380D /* WeeklyLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674937D1EB82AF1003C380D /* WeeklyLog.m */; };
 		067494351EB82AF2003C380D /* ActorBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493821EB82AF1003C380D /* ActorBuilder.m */; };
 		067494361EB82AF2003C380D /* AngelBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493851EB82AF1003C380D /* AngelBuilder.m */; };
 		067494371EB82AF2003C380D /* DevilBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493871EB82AF1003C380D /* DevilBuilder.m */; };
@@ -157,6 +156,8 @@
 		0674949C1EB9BF1D003C380D /* AndroidEnvironmentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0674949B1EB9BF1D003C380D /* AndroidEnvironmentFactory.swift */; };
 		0674949E1EB9BF36003C380D /* WindowsMobileEnvironmentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0674949D1EB9BF36003C380D /* WindowsMobileEnvironmentFactory.swift */; };
 		067494A01EB9C471003C380D /* LoadBalancer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0674949F1EB9C471003C380D /* LoadBalancer.swift */; };
+		067494A21EB9D2E5003C380D /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494A11EB9D2E5003C380D /* Customer.swift */; };
+		067494A41EB9D302003C380D /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494A31EB9D302003C380D /* Address.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -368,8 +369,6 @@
 		067493401EB82AF1003C380D /* HRDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRDepartment.m; sourceTree = "<group>"; };
 		067493411EB82AF1003C380D /* Department.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Department.h; sourceTree = "<group>"; };
 		067493421EB82AF1003C380D /* Department.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Department.m; sourceTree = "<group>"; };
-		0674937C1EB82AF1003C380D /* WeeklyLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeeklyLog.h; sourceTree = "<group>"; };
-		0674937D1EB82AF1003C380D /* WeeklyLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeeklyLog.m; sourceTree = "<group>"; };
 		067493811EB82AF1003C380D /* ActorBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActorBuilder.h; sourceTree = "<group>"; };
 		067493821EB82AF1003C380D /* ActorBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActorBuilder.m; sourceTree = "<group>"; };
 		067493841EB82AF1003C380D /* AngelBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AngelBuilder.h; sourceTree = "<group>"; };
@@ -444,6 +443,8 @@
 		0674949B1EB9BF1D003C380D /* AndroidEnvironmentFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AndroidEnvironmentFactory.swift; sourceTree = "<group>"; };
 		0674949D1EB9BF36003C380D /* WindowsMobileEnvironmentFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowsMobileEnvironmentFactory.swift; sourceTree = "<group>"; };
 		0674949F1EB9C471003C380D /* LoadBalancer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadBalancer.swift; sourceTree = "<group>"; };
+		067494A11EB9D2E5003C380D /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		067494A31EB9D302003C380D /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1530,8 +1531,8 @@
 		0674937B1EB82AF1003C380D /* ConcretePrototype */ = {
 			isa = PBXGroup;
 			children = (
-				0674937C1EB82AF1003C380D /* WeeklyLog.h */,
-				0674937D1EB82AF1003C380D /* WeeklyLog.m */,
+				067494A11EB9D2E5003C380D /* Customer.swift */,
+				067494A31EB9D302003C380D /* Address.swift */,
 			);
 			path = ConcretePrototype;
 			sourceTree = "<group>";
@@ -1957,11 +1958,13 @@
 				067494201EB82AF2003C380D /* Department.m in Sources */,
 				067493C41EB82AF2003C380D /* DPListBox.m in Sources */,
 				067494141EB82AF2003C380D /* StudentDiscount.m in Sources */,
+				067494A41EB9D302003C380D /* Address.swift in Sources */,
 				0674941A1EB82AF2003C380D /* FulltimeEmployee.m in Sources */,
 				067493FF1EB82AF2003C380D /* DPChessman.m in Sources */,
 				067493DA1EB82AF2003C380D /* Director.m in Sources */,
 				067493EF1EB82AF2003C380D /* LoopCommandNode.m in Sources */,
 				067493F71EB82AF2003C380D /* DPMComboBox.m in Sources */,
+				067494A21EB9D2E5003C380D /* Customer.swift in Sources */,
 				067494131EB82AF2003C380D /* ChildrenDiscount.m in Sources */,
 				067493F01EB82AF2003C380D /* PrimitiveCommandNode.m in Sources */,
 				067493E51EB82AF2003C380D /* AbstractNode.m in Sources */,
@@ -1997,7 +2000,6 @@
 				067494411EB82AF2003C380D /* DPGIFImage.m in Sources */,
 				067493D11EB82AF2003C380D /* IgoChessman.m in Sources */,
 				067494441EB82AF2003C380D /* DPMatrix.m in Sources */,
-				067494341EB82AF2003C380D /* WeeklyLog.m in Sources */,
 				067494601EB82E9C003C380D /* zShape.swift in Sources */,
 				0674940E1EB82AF2003C380D /* DPScreenLargerState.m in Sources */,
 				067494071EB82AF2003C380D /* OverdraftState.m in Sources */,
