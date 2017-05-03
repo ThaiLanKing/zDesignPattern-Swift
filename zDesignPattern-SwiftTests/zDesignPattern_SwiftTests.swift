@@ -24,7 +24,8 @@ class zDesignPattern_SwiftTests: XCTestCase {
     func testExample() {
         print("===========测试开始=============")
 //        tSimpleFactory()
-        tFactoryMethod()
+//        tFactoryMethod()
+        tAbstractFactory()
         print("===========测试结束============")
     }
     
@@ -42,7 +43,6 @@ class zDesignPattern_SwiftTests: XCTestCase {
         shape = zShapeFactory.CreateShape("椭圆形")
         shape?.draw()
         shape?.erase()
-        print("--------------")
     }
     
     func tFactoryMethod() {
@@ -51,6 +51,18 @@ class zDesignPattern_SwiftTests: XCTestCase {
         
         imgReader = JpgImageReaderFactory().createImageReader()
         imgReader?.read()
+    }
+    
+    func tAbstractFactory() -> Void {
+        var gameEvnFactory:GameEnvironmentFactory = SymbianEnvironmentFactory()
+        gameEvnFactory.createOperationController()
+        gameEvnFactory.createInterfaceController()
+        
+        print("-------------")
+        
+        gameEvnFactory = WindowsMobileEnvironmentFactory()
+        gameEvnFactory.createOperationController()
+        gameEvnFactory.createInterfaceController()
     }
     
     func testPerformanceExample() {
