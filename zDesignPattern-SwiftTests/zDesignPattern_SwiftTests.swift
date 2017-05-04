@@ -27,7 +27,8 @@ class zDesignPattern_SwiftTests: XCTestCase {
 //        tFactoryMethod()
 //        tAbstractFactory()
 //        tSingleton()
-        tPrototype()
+//        tPrototype()
+        tBuilder()
         print("===========测试结束============")
     }
     
@@ -106,6 +107,16 @@ class zDesignPattern_SwiftTests: XCTestCase {
         print("srcCustomer address : \(srcCustomer.address?.addressStr)")
         print("shallowCustomer address : \(shallowCustomer.address?.addressStr)")
         print("deepCustomer address : \(deepCustomer.address?.addressStr)")
+    }
+    
+    func tBuilder() -> Void {
+        var videoPlayerBuilder : VideoPlayerBuilder = CompleteVideoPlayBuilder()
+        videoPlayerBuilder.construct()
+        
+        print("------------------------")
+        
+        videoPlayerBuilder = MemoryVideoPlayerBuilder()
+        videoPlayerBuilder.construct()
     }
     
     func testPerformanceExample() {

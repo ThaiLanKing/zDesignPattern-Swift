@@ -107,12 +107,6 @@
 		0674941E1EB82AF2003C380D /* FADepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674933E1EB82AF1003C380D /* FADepartment.m */; };
 		0674941F1EB82AF2003C380D /* HRDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493401EB82AF1003C380D /* HRDepartment.m */; };
 		067494201EB82AF2003C380D /* Department.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493421EB82AF1003C380D /* Department.m */; };
-		067494351EB82AF2003C380D /* ActorBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493821EB82AF1003C380D /* ActorBuilder.m */; };
-		067494361EB82AF2003C380D /* AngelBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493851EB82AF1003C380D /* AngelBuilder.m */; };
-		067494371EB82AF2003C380D /* DevilBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493871EB82AF1003C380D /* DevilBuilder.m */; };
-		067494381EB82AF2003C380D /* HeroBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493891EB82AF1003C380D /* HeroBuilder.m */; };
-		067494391EB82AF2003C380D /* ActorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674938C1EB82AF1003C380D /* ActorController.m */; };
-		0674943A1EB82AF2003C380D /* Actor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674938F1EB82AF2003C380D /* Actor.m */; };
 		0674943B1EB82AF2003C380D /* OperationAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493931EB82AF2003C380D /* OperationAdapter.m */; };
 		0674943C1EB82AF2003C380D /* BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493961EB82AF2003C380D /* BinarySearch.m */; };
 		0674943D1EB82AF2003C380D /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493981EB82AF2003C380D /* QuickSort.m */; };
@@ -158,6 +152,12 @@
 		067494A01EB9C471003C380D /* LoadBalancer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0674949F1EB9C471003C380D /* LoadBalancer.swift */; };
 		067494A21EB9D2E5003C380D /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494A11EB9D2E5003C380D /* Customer.swift */; };
 		067494A41EB9D302003C380D /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494A31EB9D302003C380D /* Address.swift */; };
+		067494A61EBA0A32003C380D /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494A51EBA0A32003C380D /* VideoPlayer.swift */; };
+		067494A81EBA0AE9003C380D /* VideoPlayerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494A71EBA0AE9003C380D /* VideoPlayerBuilder.swift */; };
+		067494AA1EBA0C9C003C380D /* CompleteVideoPlayBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494A91EBA0C9C003C380D /* CompleteVideoPlayBuilder.swift */; };
+		067494AC1EBA0CC3003C380D /* SimpleVideoPlayerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494AB1EBA0CC3003C380D /* SimpleVideoPlayerBuilder.swift */; };
+		067494AE1EBA0CEE003C380D /* MemoryVideoPlayerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494AD1EBA0CEE003C380D /* MemoryVideoPlayerBuilder.swift */; };
+		067494B01EBA0D0E003C380D /* NetworkVideoPlayerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494AF1EBA0D0E003C380D /* NetworkVideoPlayerBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -369,18 +369,6 @@
 		067493401EB82AF1003C380D /* HRDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRDepartment.m; sourceTree = "<group>"; };
 		067493411EB82AF1003C380D /* Department.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Department.h; sourceTree = "<group>"; };
 		067493421EB82AF1003C380D /* Department.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Department.m; sourceTree = "<group>"; };
-		067493811EB82AF1003C380D /* ActorBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActorBuilder.h; sourceTree = "<group>"; };
-		067493821EB82AF1003C380D /* ActorBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActorBuilder.m; sourceTree = "<group>"; };
-		067493841EB82AF1003C380D /* AngelBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AngelBuilder.h; sourceTree = "<group>"; };
-		067493851EB82AF1003C380D /* AngelBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AngelBuilder.m; sourceTree = "<group>"; };
-		067493861EB82AF1003C380D /* DevilBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DevilBuilder.h; sourceTree = "<group>"; };
-		067493871EB82AF1003C380D /* DevilBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DevilBuilder.m; sourceTree = "<group>"; };
-		067493881EB82AF1003C380D /* HeroBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroBuilder.h; sourceTree = "<group>"; };
-		067493891EB82AF1003C380D /* HeroBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroBuilder.m; sourceTree = "<group>"; };
-		0674938B1EB82AF1003C380D /* ActorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActorController.h; sourceTree = "<group>"; };
-		0674938C1EB82AF1003C380D /* ActorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActorController.m; sourceTree = "<group>"; };
-		0674938E1EB82AF2003C380D /* Actor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Actor.h; sourceTree = "<group>"; };
-		0674938F1EB82AF2003C380D /* Actor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Actor.m; sourceTree = "<group>"; };
 		067493921EB82AF2003C380D /* OperationAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationAdapter.h; sourceTree = "<group>"; };
 		067493931EB82AF2003C380D /* OperationAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationAdapter.m; sourceTree = "<group>"; };
 		067493951EB82AF2003C380D /* BinarySearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinarySearch.h; sourceTree = "<group>"; };
@@ -445,6 +433,12 @@
 		0674949F1EB9C471003C380D /* LoadBalancer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadBalancer.swift; sourceTree = "<group>"; };
 		067494A11EB9D2E5003C380D /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 		067494A31EB9D302003C380D /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		067494A51EBA0A32003C380D /* VideoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
+		067494A71EBA0AE9003C380D /* VideoPlayerBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerBuilder.swift; sourceTree = "<group>"; };
+		067494A91EBA0C9C003C380D /* CompleteVideoPlayBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteVideoPlayBuilder.swift; sourceTree = "<group>"; };
+		067494AB1EBA0CC3003C380D /* SimpleVideoPlayerBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleVideoPlayerBuilder.swift; sourceTree = "<group>"; };
+		067494AD1EBA0CEE003C380D /* MemoryVideoPlayerBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryVideoPlayerBuilder.swift; sourceTree = "<group>"; };
+		067494AF1EBA0D0E003C380D /* NetworkVideoPlayerBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkVideoPlayerBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1557,8 +1551,7 @@
 		067493801EB82AF1003C380D /* Builder */ = {
 			isa = PBXGroup;
 			children = (
-				067493811EB82AF1003C380D /* ActorBuilder.h */,
-				067493821EB82AF1003C380D /* ActorBuilder.m */,
+				067494A71EBA0AE9003C380D /* VideoPlayerBuilder.swift */,
 				067493831EB82AF1003C380D /* ConcreteBuilder */,
 			);
 			path = Builder;
@@ -1567,12 +1560,10 @@
 		067493831EB82AF1003C380D /* ConcreteBuilder */ = {
 			isa = PBXGroup;
 			children = (
-				067493841EB82AF1003C380D /* AngelBuilder.h */,
-				067493851EB82AF1003C380D /* AngelBuilder.m */,
-				067493861EB82AF1003C380D /* DevilBuilder.h */,
-				067493871EB82AF1003C380D /* DevilBuilder.m */,
-				067493881EB82AF1003C380D /* HeroBuilder.h */,
-				067493891EB82AF1003C380D /* HeroBuilder.m */,
+				067494A91EBA0C9C003C380D /* CompleteVideoPlayBuilder.swift */,
+				067494AB1EBA0CC3003C380D /* SimpleVideoPlayerBuilder.swift */,
+				067494AD1EBA0CEE003C380D /* MemoryVideoPlayerBuilder.swift */,
+				067494AF1EBA0D0E003C380D /* NetworkVideoPlayerBuilder.swift */,
 			);
 			path = ConcreteBuilder;
 			sourceTree = "<group>";
@@ -1580,8 +1571,6 @@
 		0674938A1EB82AF1003C380D /* Director */ = {
 			isa = PBXGroup;
 			children = (
-				0674938B1EB82AF1003C380D /* ActorController.h */,
-				0674938C1EB82AF1003C380D /* ActorController.m */,
 			);
 			path = Director;
 			sourceTree = "<group>";
@@ -1589,8 +1578,7 @@
 		0674938D1EB82AF1003C380D /* Product */ = {
 			isa = PBXGroup;
 			children = (
-				0674938E1EB82AF2003C380D /* Actor.h */,
-				0674938F1EB82AF2003C380D /* Actor.m */,
+				067494A51EBA0A32003C380D /* VideoPlayer.swift */,
 			);
 			path = Product;
 			sourceTree = "<group>";
@@ -1868,6 +1856,7 @@
 				0674943F1EB82AF2003C380D /* DPImage.m in Sources */,
 				067493F91EB82AF2003C380D /* DPMTextBox.m in Sources */,
 				067493FE1EB82AF2003C380D /* ChessmanMemento.m in Sources */,
+				067494A61EBA0A32003C380D /* VideoPlayer.swift in Sources */,
 				0674943D1EB82AF2003C380D /* QuickSort.m in Sources */,
 				067493E41EB82AF2003C380D /* WindowHandler.m in Sources */,
 				067494031EB82AF2003C380D /* ConcreteAllyControlCenter.m in Sources */,
@@ -1875,16 +1864,17 @@
 				067494151EB82AF2003C380D /* VIPDiscount.m in Sources */,
 				067493EC1EB82AF2003C380D /* DPNode.m in Sources */,
 				067494041EB82AF2003C380D /* Account.m in Sources */,
+				067494B01EBA0D0E003C380D /* NetworkVideoPlayerBuilder.swift in Sources */,
 				067493C71EB82AF2003C380D /* ComponentDecorator.m in Sources */,
 				0674949A1EB9BF07003C380D /* SymbianEnvironmentFactory.swift in Sources */,
+				067494AA1EBA0C9C003C380D /* CompleteVideoPlayBuilder.swift in Sources */,
 				067493EA1EB82AF2003C380D /* DistanceNode.m in Sources */,
 				0674948A1EB98C75003C380D /* DPInterfaceController.swift in Sources */,
-				067494381EB82AF2003C380D /* HeroBuilder.m in Sources */,
 				0674944C1EB82AF2003C380D /* DPTextFile.m in Sources */,
 				067493CD1EB82AF2003C380D /* DPFileWriter.m in Sources */,
 				067494191EB82AF2003C380D /* SavingAccount.m in Sources */,
-				067494361EB82AF2003C380D /* AngelBuilder.m in Sources */,
 				0674941B1EB82AF2003C380D /* ParttimeEmployee.m in Sources */,
+				067494AC1EBA0CC3003C380D /* SimpleVideoPlayerBuilder.swift in Sources */,
 				067493F11EB82AF2003C380D /* DPContext.m in Sources */,
 				067493EE1EB82AF2003C380D /* ExpressionNode.m in Sources */,
 				067493ED1EB82AF2003C380D /* CommandNode.m in Sources */,
@@ -1895,7 +1885,6 @@
 				067494921EB98D97003C380D /* SymbianInterfaceController.swift in Sources */,
 				0674949E1EB9BF36003C380D /* WindowsMobileEnvironmentFactory.swift in Sources */,
 				067493DB1EB82AF2003C380D /* President.m in Sources */,
-				067494351EB82AF2003C380D /* ActorBuilder.m in Sources */,
 				067493E31EB82AF2003C380D /* HelpHandler.m in Sources */,
 				067494051EB82AF2003C380D /* AccountState.m in Sources */,
 				0674943B1EB82AF2003C380D /* OperationAdapter.m in Sources */,
@@ -1923,12 +1912,10 @@
 				067494061EB82AF2003C380D /* NormalState.m in Sources */,
 				067493C61EB82AF2003C380D /* DPWindow.m in Sources */,
 				067493D31EB82AF2003C380D /* AccessValidator.m in Sources */,
-				0674943A1EB82AF2003C380D /* Actor.m in Sources */,
 				0674948E1EB98D3C003C380D /* AndroidOperationController.swift in Sources */,
 				067493F81EB82AF2003C380D /* DPMList.m in Sources */,
 				067494471EB82AF2003C380D /* WindowsImp.m in Sources */,
 				067494181EB82AF2003C380D /* CurrentAccount.m in Sources */,
-				067494371EB82AF2003C380D /* DevilBuilder.m in Sources */,
 				067494801EB985B5003C380D /* JpgImageReader.swift in Sources */,
 				067493D61EB82AF2003C380D /* DPProxySearcher.m in Sources */,
 				067492141EB828B3003C380D /* ViewController.swift in Sources */,
@@ -1936,6 +1923,7 @@
 				067494491EB82AF2003C380D /* AbstractFile.m in Sources */,
 				067493F41EB82AF2003C380D /* AbstractIterator.m in Sources */,
 				0674944D1EB82AF2003C380D /* DPVideoFile.m in Sources */,
+				067494A81EBA0AE9003C380D /* VideoPlayerBuilder.swift in Sources */,
 				067493FA1EB82AF2003C380D /* DPMComponent.m in Sources */,
 				067494481EB82AF2003C380D /* DPImageImp.m in Sources */,
 				0674946A1EB833A2003C380D /* zShapeFactory.swift in Sources */,
@@ -1950,7 +1938,6 @@
 				067493E81EB82AF2003C380D /* ActionNode.m in Sources */,
 				0674947C1EB9835C003C380D /* ImageReader.swift in Sources */,
 				067492121EB828B3003C380D /* AppDelegate.swift in Sources */,
-				067494391EB82AF2003C380D /* ActorController.m in Sources */,
 				067493D91EB82AF2003C380D /* Congress.m in Sources */,
 				067493CB1EB82AF2003C380D /* DPCipherMachine.m in Sources */,
 				0674940F1EB82AF2003C380D /* DPScreenLargestState.m in Sources */,
@@ -2009,6 +1996,7 @@
 				067494681EB82F3D003C380D /* zTriangleShape.swift in Sources */,
 				067493FD1EB82AF2003C380D /* MementoCaretaker.m in Sources */,
 				067494401EB82AF2003C380D /* DPBMPImage.m in Sources */,
+				067494AE1EBA0CEE003C380D /* MemoryVideoPlayerBuilder.swift in Sources */,
 				067493F51EB82AF2003C380D /* ProductIterator.m in Sources */,
 				067493E11EB82AF2003C380D /* FBSettingWindow.m in Sources */,
 			);
