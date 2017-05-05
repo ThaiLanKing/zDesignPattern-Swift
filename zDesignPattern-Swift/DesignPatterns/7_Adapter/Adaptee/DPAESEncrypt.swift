@@ -50,6 +50,7 @@ class DPAESEncrypt: NSObject {
                                   &numBytesEncrypted)
         
         if UInt32(cryptStatus) == UInt32(kCCSuccess) {
+            //AES加密后的数据不一定能转成String
             cryptData.count = Int(numBytesEncrypted)
             return cryptData
         }
