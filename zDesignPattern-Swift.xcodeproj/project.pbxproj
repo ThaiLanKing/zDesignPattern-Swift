@@ -146,8 +146,6 @@
 		0674949C1EB9BF1D003C380D /* AndroidEnvironmentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0674949B1EB9BF1D003C380D /* AndroidEnvironmentFactory.swift */; };
 		0674949E1EB9BF36003C380D /* WindowsMobileEnvironmentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0674949D1EB9BF36003C380D /* WindowsMobileEnvironmentFactory.swift */; };
 		067494A01EB9C471003C380D /* LoadBalancer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0674949F1EB9C471003C380D /* LoadBalancer.swift */; };
-		067494A21EB9D2E5003C380D /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494A11EB9D2E5003C380D /* Customer.swift */; };
-		067494A41EB9D302003C380D /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494A31EB9D302003C380D /* Address.swift */; };
 		067494A61EBA0A32003C380D /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494A51EBA0A32003C380D /* VideoPlayer.swift */; };
 		067494A81EBA0AE9003C380D /* VideoPlayerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494A71EBA0AE9003C380D /* VideoPlayerBuilder.swift */; };
 		067494AA1EBA0C9C003C380D /* CompleteVideoPlayBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494A91EBA0C9C003C380D /* CompleteVideoPlayBuilder.swift */; };
@@ -159,6 +157,8 @@
 		067494DE1EBB1AEE003C380D /* libSystem.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 067494DD1EBB1AEE003C380D /* libSystem.tbd */; };
 		067494E01EBC2A9F003C380D /* UserInfoOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494DF1EBC2A9F003C380D /* UserInfoOperation.swift */; };
 		067494E21EBC2B72003C380D /* UserInfoEncryptAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494E11EBC2B72003C380D /* UserInfoEncryptAdapter.swift */; };
+		067494E61EBC6359003C380D /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494E41EBC6359003C380D /* Address.swift */; };
+		067494E71EBC6359003C380D /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494E51EBC6359003C380D /* Customer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -424,8 +424,6 @@
 		0674949B1EB9BF1D003C380D /* AndroidEnvironmentFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AndroidEnvironmentFactory.swift; sourceTree = "<group>"; };
 		0674949D1EB9BF36003C380D /* WindowsMobileEnvironmentFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowsMobileEnvironmentFactory.swift; sourceTree = "<group>"; };
 		0674949F1EB9C471003C380D /* LoadBalancer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadBalancer.swift; sourceTree = "<group>"; };
-		067494A11EB9D2E5003C380D /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
-		067494A31EB9D302003C380D /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		067494A51EBA0A32003C380D /* VideoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
 		067494A71EBA0AE9003C380D /* VideoPlayerBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerBuilder.swift; sourceTree = "<group>"; };
 		067494A91EBA0C9C003C380D /* CompleteVideoPlayBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteVideoPlayBuilder.swift; sourceTree = "<group>"; };
@@ -438,6 +436,8 @@
 		067494DD1EBB1AEE003C380D /* libSystem.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSystem.tbd; path = usr/lib/libSystem.tbd; sourceTree = SDKROOT; };
 		067494DF1EBC2A9F003C380D /* UserInfoOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoOperation.swift; sourceTree = "<group>"; };
 		067494E11EBC2B72003C380D /* UserInfoEncryptAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoEncryptAdapter.swift; sourceTree = "<group>"; };
+		067494E41EBC6359003C380D /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		067494E51EBC6359003C380D /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1511,7 +1511,6 @@
 			isa = PBXGroup;
 			children = (
 				0674937A1EB82AF1003C380D /* Client */,
-				0674937B1EB82AF1003C380D /* ConcretePrototype */,
 				0674937E1EB82AF1003C380D /* Prototype */,
 			);
 			path = 5_Prototype;
@@ -1524,18 +1523,10 @@
 			path = Client;
 			sourceTree = "<group>";
 		};
-		0674937B1EB82AF1003C380D /* ConcretePrototype */ = {
-			isa = PBXGroup;
-			children = (
-				067494A11EB9D2E5003C380D /* Customer.swift */,
-				067494A31EB9D302003C380D /* Address.swift */,
-			);
-			path = ConcretePrototype;
-			sourceTree = "<group>";
-		};
 		0674937E1EB82AF1003C380D /* Prototype */ = {
 			isa = PBXGroup;
 			children = (
+				067494E31EBC6359003C380D /* ConcretePrototype */,
 			);
 			path = Prototype;
 			sourceTree = "<group>";
@@ -1756,6 +1747,15 @@
 			path = "zDesignPattern-Swift/Frameworks";
 			sourceTree = "<group>";
 		};
+		067494E31EBC6359003C380D /* ConcretePrototype */ = {
+			isa = PBXGroup;
+			children = (
+				067494E41EBC6359003C380D /* Address.swift */,
+				067494E51EBC6359003C380D /* Customer.swift */,
+			);
+			path = ConcretePrototype;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1954,13 +1954,12 @@
 				067494201EB82AF2003C380D /* Department.m in Sources */,
 				067493C41EB82AF2003C380D /* DPListBox.m in Sources */,
 				067494141EB82AF2003C380D /* StudentDiscount.m in Sources */,
-				067494A41EB9D302003C380D /* Address.swift in Sources */,
 				0674941A1EB82AF2003C380D /* FulltimeEmployee.m in Sources */,
 				067493FF1EB82AF2003C380D /* DPChessman.m in Sources */,
 				067493DA1EB82AF2003C380D /* Director.m in Sources */,
 				067493EF1EB82AF2003C380D /* LoopCommandNode.m in Sources */,
+				067494E71EBC6359003C380D /* Customer.swift in Sources */,
 				067493F71EB82AF2003C380D /* DPMComboBox.m in Sources */,
-				067494A21EB9D2E5003C380D /* Customer.swift in Sources */,
 				067494131EB82AF2003C380D /* ChildrenDiscount.m in Sources */,
 				067493F01EB82AF2003C380D /* PrimitiveCommandNode.m in Sources */,
 				067493E51EB82AF2003C380D /* AbstractNode.m in Sources */,
@@ -1995,6 +1994,7 @@
 				067493D11EB82AF2003C380D /* IgoChessman.m in Sources */,
 				067494441EB82AF2003C380D /* DPMatrix.m in Sources */,
 				067494601EB82E9C003C380D /* zShape.swift in Sources */,
+				067494E61EBC6359003C380D /* Address.swift in Sources */,
 				0674940E1EB82AF2003C380D /* DPScreenLargerState.m in Sources */,
 				067494071EB82AF2003C380D /* OverdraftState.m in Sources */,
 				067494881EB98C41003C380D /* DPOperationController.swift in Sources */,
