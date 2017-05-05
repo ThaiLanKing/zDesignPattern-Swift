@@ -29,7 +29,8 @@ class zDesignPattern_SwiftTests: XCTestCase {
 //        tSingleton()
 //        tPrototype()
 //        tBuilder()
-        tAdapter()
+//        tAdapter()
+        tBridge()
         print("===========测试结束============")
     }
     
@@ -128,6 +129,29 @@ class zDesignPattern_SwiftTests: XCTestCase {
         
         let decryptEmail = userInfoOP.decrypt(email: encryptEmail)
         print("decryptEmail = \(decryptEmail)")
+    }
+    
+    func tBridge() -> Void {
+        var docSwitcher: DPDocument = DPTxtDocument()
+        docSwitcher.dbImpl = DPMongoDBImpl()
+        docSwitcher.parse(fileName: "今日值班记录")
+        
+        print("")
+        
+        docSwitcher.dbImpl = DPSQLServerImpl()
+        docSwitcher.parse(fileName: "今日报酬统计")
+        
+        print("-----------------------------------")
+        
+        docSwitcher = DPPdfDocument()
+        docSwitcher.dbImpl = DPMongoDBImpl()
+        docSwitcher.parse(fileName: "今日值班记录")
+        
+        print("")
+        
+        docSwitcher.dbImpl = DPSQLServerImpl()
+        docSwitcher.parse(fileName: "今日报酬统计")
+        
     }
     
     func testPerformanceExample() {

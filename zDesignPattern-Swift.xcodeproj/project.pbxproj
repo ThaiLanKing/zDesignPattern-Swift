@@ -107,16 +107,6 @@
 		0674941E1EB82AF2003C380D /* FADepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674933E1EB82AF1003C380D /* FADepartment.m */; };
 		0674941F1EB82AF2003C380D /* HRDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493401EB82AF1003C380D /* HRDepartment.m */; };
 		067494201EB82AF2003C380D /* Department.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493421EB82AF1003C380D /* Department.m */; };
-		0674943F1EB82AF2003C380D /* DPImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674939F1EB82AF2003C380D /* DPImage.m */; };
-		067494401EB82AF2003C380D /* DPBMPImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493A21EB82AF2003C380D /* DPBMPImage.m */; };
-		067494411EB82AF2003C380D /* DPGIFImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493A41EB82AF2003C380D /* DPGIFImage.m */; };
-		067494421EB82AF2003C380D /* DPJPGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493A61EB82AF2003C380D /* DPJPGImage.m */; };
-		067494431EB82AF2003C380D /* DPPNGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493A81EB82AF2003C380D /* DPPNGImage.m */; };
-		067494441EB82AF2003C380D /* DPMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493AA1EB82AF2003C380D /* DPMatrix.m */; };
-		067494451EB82AF2003C380D /* LinuxImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493AE1EB82AF2003C380D /* LinuxImp.m */; };
-		067494461EB82AF2003C380D /* UnixImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493B01EB82AF2003C380D /* UnixImp.m */; };
-		067494471EB82AF2003C380D /* WindowsImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493B21EB82AF2003C380D /* WindowsImp.m */; };
-		067494481EB82AF2003C380D /* DPImageImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493B41EB82AF2003C380D /* DPImageImp.m */; };
 		067494491EB82AF2003C380D /* AbstractFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493B81EB82AF2003C380D /* AbstractFile.m */; };
 		0674944A1EB82AF2003C380D /* DPFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493BB1EB82AF2003C380D /* DPFolder.m */; };
 		0674944B1EB82AF2003C380D /* DPImageFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493BE1EB82AF2003C380D /* DPImageFile.m */; };
@@ -159,6 +149,15 @@
 		067494E21EBC2B72003C380D /* UserInfoEncryptAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494E11EBC2B72003C380D /* UserInfoEncryptAdapter.swift */; };
 		067494E61EBC6359003C380D /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494E41EBC6359003C380D /* Address.swift */; };
 		067494E71EBC6359003C380D /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494E51EBC6359003C380D /* Customer.swift */; };
+		067494E91EBC6996003C380D /* DPDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494E81EBC6996003C380D /* DPDocument.swift */; };
+		067494EB1EBC69BD003C380D /* DPTxtDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494EA1EBC69BD003C380D /* DPTxtDocument.swift */; };
+		067494ED1EBC69D4003C380D /* DPXmlDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494EC1EBC69D4003C380D /* DPXmlDocument.swift */; };
+		067494EF1EBC69EB003C380D /* DPPdfDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494EE1EBC69EB003C380D /* DPPdfDocument.swift */; };
+		067494F11EBC6A21003C380D /* DPDBImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494F01EBC6A21003C380D /* DPDBImpl.swift */; };
+		067494F51EBC6AD2003C380D /* DPString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494F41EBC6AD2003C380D /* DPString.swift */; };
+		067494F71EBC73E1003C380D /* DPMongoDBImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494F61EBC73E1003C380D /* DPMongoDBImpl.swift */; };
+		067494F91EBC73F4003C380D /* DPLevelDBImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494F81EBC73F4003C380D /* DPLevelDBImpl.swift */; };
+		067494FB1EBC7414003C380D /* DPSQLServerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494FA1EBC7414003C380D /* DPSQLServerImpl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -370,26 +369,6 @@
 		067493401EB82AF1003C380D /* HRDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRDepartment.m; sourceTree = "<group>"; };
 		067493411EB82AF1003C380D /* Department.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Department.h; sourceTree = "<group>"; };
 		067493421EB82AF1003C380D /* Department.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Department.m; sourceTree = "<group>"; };
-		0674939E1EB82AF2003C380D /* DPImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPImage.h; sourceTree = "<group>"; };
-		0674939F1EB82AF2003C380D /* DPImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPImage.m; sourceTree = "<group>"; };
-		067493A11EB82AF2003C380D /* DPBMPImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPBMPImage.h; sourceTree = "<group>"; };
-		067493A21EB82AF2003C380D /* DPBMPImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPBMPImage.m; sourceTree = "<group>"; };
-		067493A31EB82AF2003C380D /* DPGIFImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPGIFImage.h; sourceTree = "<group>"; };
-		067493A41EB82AF2003C380D /* DPGIFImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPGIFImage.m; sourceTree = "<group>"; };
-		067493A51EB82AF2003C380D /* DPJPGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPJPGImage.h; sourceTree = "<group>"; };
-		067493A61EB82AF2003C380D /* DPJPGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPJPGImage.m; sourceTree = "<group>"; };
-		067493A71EB82AF2003C380D /* DPPNGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPPNGImage.h; sourceTree = "<group>"; };
-		067493A81EB82AF2003C380D /* DPPNGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPPNGImage.m; sourceTree = "<group>"; };
-		067493A91EB82AF2003C380D /* DPMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPMatrix.h; sourceTree = "<group>"; };
-		067493AA1EB82AF2003C380D /* DPMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPMatrix.m; sourceTree = "<group>"; };
-		067493AD1EB82AF2003C380D /* LinuxImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinuxImp.h; sourceTree = "<group>"; };
-		067493AE1EB82AF2003C380D /* LinuxImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinuxImp.m; sourceTree = "<group>"; };
-		067493AF1EB82AF2003C380D /* UnixImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnixImp.h; sourceTree = "<group>"; };
-		067493B01EB82AF2003C380D /* UnixImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnixImp.m; sourceTree = "<group>"; };
-		067493B11EB82AF2003C380D /* WindowsImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowsImp.h; sourceTree = "<group>"; };
-		067493B21EB82AF2003C380D /* WindowsImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowsImp.m; sourceTree = "<group>"; };
-		067493B31EB82AF2003C380D /* DPImageImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPImageImp.h; sourceTree = "<group>"; };
-		067493B41EB82AF2003C380D /* DPImageImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPImageImp.m; sourceTree = "<group>"; };
 		067493B71EB82AF2003C380D /* AbstractFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractFile.h; sourceTree = "<group>"; };
 		067493B81EB82AF2003C380D /* AbstractFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractFile.m; sourceTree = "<group>"; };
 		067493BA1EB82AF2003C380D /* DPFolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPFolder.h; sourceTree = "<group>"; };
@@ -438,6 +417,15 @@
 		067494E11EBC2B72003C380D /* UserInfoEncryptAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoEncryptAdapter.swift; sourceTree = "<group>"; };
 		067494E41EBC6359003C380D /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		067494E51EBC6359003C380D /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		067494E81EBC6996003C380D /* DPDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPDocument.swift; sourceTree = "<group>"; };
+		067494EA1EBC69BD003C380D /* DPTxtDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPTxtDocument.swift; sourceTree = "<group>"; };
+		067494EC1EBC69D4003C380D /* DPXmlDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPXmlDocument.swift; sourceTree = "<group>"; };
+		067494EE1EBC69EB003C380D /* DPPdfDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPPdfDocument.swift; sourceTree = "<group>"; };
+		067494F01EBC6A21003C380D /* DPDBImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPDBImpl.swift; sourceTree = "<group>"; };
+		067494F41EBC6AD2003C380D /* DPString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPString.swift; sourceTree = "<group>"; };
+		067494F61EBC73E1003C380D /* DPMongoDBImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPMongoDBImpl.swift; sourceTree = "<group>"; };
+		067494F81EBC73F4003C380D /* DPLevelDBImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPLevelDBImpl.swift; sourceTree = "<group>"; };
+		067494FA1EBC7414003C380D /* DPSQLServerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPSQLServerImpl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1614,9 +1602,8 @@
 		0674939C1EB82AF2003C380D /* 8_Bridge */ = {
 			isa = PBXGroup;
 			children = (
+				067494F41EBC6AD2003C380D /* DPString.swift */,
 				0674939D1EB82AF2003C380D /* Abstraction */,
-				067493A91EB82AF2003C380D /* DPMatrix.h */,
-				067493AA1EB82AF2003C380D /* DPMatrix.m */,
 				067493AB1EB82AF2003C380D /* Implementor */,
 			);
 			path = 8_Bridge;
@@ -1625,8 +1612,7 @@
 		0674939D1EB82AF2003C380D /* Abstraction */ = {
 			isa = PBXGroup;
 			children = (
-				0674939E1EB82AF2003C380D /* DPImage.h */,
-				0674939F1EB82AF2003C380D /* DPImage.m */,
+				067494E81EBC6996003C380D /* DPDocument.swift */,
 				067493A01EB82AF2003C380D /* RefinedAbstraction */,
 			);
 			path = Abstraction;
@@ -1635,14 +1621,9 @@
 		067493A01EB82AF2003C380D /* RefinedAbstraction */ = {
 			isa = PBXGroup;
 			children = (
-				067493A11EB82AF2003C380D /* DPBMPImage.h */,
-				067493A21EB82AF2003C380D /* DPBMPImage.m */,
-				067493A31EB82AF2003C380D /* DPGIFImage.h */,
-				067493A41EB82AF2003C380D /* DPGIFImage.m */,
-				067493A51EB82AF2003C380D /* DPJPGImage.h */,
-				067493A61EB82AF2003C380D /* DPJPGImage.m */,
-				067493A71EB82AF2003C380D /* DPPNGImage.h */,
-				067493A81EB82AF2003C380D /* DPPNGImage.m */,
+				067494EA1EBC69BD003C380D /* DPTxtDocument.swift */,
+				067494EC1EBC69D4003C380D /* DPXmlDocument.swift */,
+				067494EE1EBC69EB003C380D /* DPPdfDocument.swift */,
 			);
 			path = RefinedAbstraction;
 			sourceTree = "<group>";
@@ -1650,9 +1631,8 @@
 		067493AB1EB82AF2003C380D /* Implementor */ = {
 			isa = PBXGroup;
 			children = (
+				067494F01EBC6A21003C380D /* DPDBImpl.swift */,
 				067493AC1EB82AF2003C380D /* ConcreteImplementor */,
-				067493B31EB82AF2003C380D /* DPImageImp.h */,
-				067493B41EB82AF2003C380D /* DPImageImp.m */,
 			);
 			path = Implementor;
 			sourceTree = "<group>";
@@ -1660,12 +1640,9 @@
 		067493AC1EB82AF2003C380D /* ConcreteImplementor */ = {
 			isa = PBXGroup;
 			children = (
-				067493AD1EB82AF2003C380D /* LinuxImp.h */,
-				067493AE1EB82AF2003C380D /* LinuxImp.m */,
-				067493AF1EB82AF2003C380D /* UnixImp.h */,
-				067493B01EB82AF2003C380D /* UnixImp.m */,
-				067493B11EB82AF2003C380D /* WindowsImp.h */,
-				067493B21EB82AF2003C380D /* WindowsImp.m */,
+				067494F61EBC73E1003C380D /* DPMongoDBImpl.swift */,
+				067494F81EBC73F4003C380D /* DPLevelDBImpl.swift */,
+				067494FA1EBC7414003C380D /* DPSQLServerImpl.swift */,
 			);
 			path = ConcreteImplementor;
 			sourceTree = "<group>";
@@ -1860,7 +1837,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				067494901EB98D53003C380D /* WindowsMobileOperationController.swift in Sources */,
-				0674943F1EB82AF2003C380D /* DPImage.m in Sources */,
+				067494EF1EBC69EB003C380D /* DPPdfDocument.swift in Sources */,
 				067493F91EB82AF2003C380D /* DPMTextBox.m in Sources */,
 				067493FE1EB82AF2003C380D /* ChessmanMemento.m in Sources */,
 				067494A61EBA0A32003C380D /* VideoPlayer.swift in Sources */,
@@ -1879,6 +1856,7 @@
 				0674944C1EB82AF2003C380D /* DPTextFile.m in Sources */,
 				067493CD1EB82AF2003C380D /* DPFileWriter.m in Sources */,
 				067494191EB82AF2003C380D /* SavingAccount.m in Sources */,
+				067494F11EBC6A21003C380D /* DPDBImpl.swift in Sources */,
 				0674941B1EB82AF2003C380D /* ParttimeEmployee.m in Sources */,
 				067494AC1EBA0CC3003C380D /* SimpleVideoPlayerBuilder.swift in Sources */,
 				067493F11EB82AF2003C380D /* DPContext.m in Sources */,
@@ -1893,8 +1871,8 @@
 				067493DB1EB82AF2003C380D /* President.m in Sources */,
 				067493E31EB82AF2003C380D /* HelpHandler.m in Sources */,
 				067494051EB82AF2003C380D /* AccountState.m in Sources */,
-				067494421EB82AF2003C380D /* DPJPGImage.m in Sources */,
 				0674941E1EB82AF2003C380D /* FADepartment.m in Sources */,
+				067494ED1EBC69D4003C380D /* DPXmlDocument.swift in Sources */,
 				067494171EB82AF2003C380D /* BankAccount.m in Sources */,
 				067493D21EB82AF2003C380D /* IgoChessmanFactory.m in Sources */,
 				0674944A1EB82AF2003C380D /* DPFolder.m in Sources */,
@@ -1906,7 +1884,6 @@
 				067494001EB82AF2003C380D /* Player.m in Sources */,
 				067494091EB82AF2003C380D /* DPSwitch.m in Sources */,
 				067494011EB82AF2003C380D /* Observer.m in Sources */,
-				067494461EB82AF2003C380D /* UnixImp.m in Sources */,
 				067494081EB82AF2003C380D /* RestrictedState.m in Sources */,
 				0674944B1EB82AF2003C380D /* DPImageFile.m in Sources */,
 				067493D81EB82AF2003C380D /* Approver.m in Sources */,
@@ -1914,14 +1891,12 @@
 				067493C31EB82AF2003C380D /* Component.m in Sources */,
 				067494621EB82EE0003C380D /* zSquareShape.swift in Sources */,
 				0674941C1EB82AF2003C380D /* Employee.m in Sources */,
-				067494451EB82AF2003C380D /* LinuxImp.m in Sources */,
 				067494061EB82AF2003C380D /* NormalState.m in Sources */,
 				067493C61EB82AF2003C380D /* DPWindow.m in Sources */,
 				067493D31EB82AF2003C380D /* AccessValidator.m in Sources */,
 				067494D51EBB0950003C380D /* DPMd5Encrypt.swift in Sources */,
 				0674948E1EB98D3C003C380D /* AndroidOperationController.swift in Sources */,
 				067493F81EB82AF2003C380D /* DPMList.m in Sources */,
-				067494471EB82AF2003C380D /* WindowsImp.m in Sources */,
 				067494181EB82AF2003C380D /* CurrentAccount.m in Sources */,
 				067494801EB985B5003C380D /* JpgImageReader.swift in Sources */,
 				067493D61EB82AF2003C380D /* DPProxySearcher.m in Sources */,
@@ -1929,11 +1904,11 @@
 				067493F61EB82AF2003C380D /* DPMButton.m in Sources */,
 				067494491EB82AF2003C380D /* AbstractFile.m in Sources */,
 				067493F41EB82AF2003C380D /* AbstractIterator.m in Sources */,
+				067494FB1EBC7414003C380D /* DPSQLServerImpl.swift in Sources */,
 				0674944D1EB82AF2003C380D /* DPVideoFile.m in Sources */,
 				067494A81EBA0AE9003C380D /* VideoPlayerBuilder.swift in Sources */,
 				067493FA1EB82AF2003C380D /* DPMComponent.m in Sources */,
 				067494E01EBC2A9F003C380D /* UserInfoOperation.swift in Sources */,
-				067494481EB82AF2003C380D /* DPImageImp.m in Sources */,
 				0674946A1EB833A2003C380D /* zShapeFactory.swift in Sources */,
 				067493C91EB82AF2003C380D /* ScrollBarDecorator.m in Sources */,
 				067493F21EB82AF2003C380D /* AbstractObjectList.m in Sources */,
@@ -1945,6 +1920,7 @@
 				067493E01EB82AF2003C380D /* MinimizeCommand.m in Sources */,
 				067493E81EB82AF2003C380D /* ActionNode.m in Sources */,
 				0674947C1EB9835C003C380D /* ImageReader.swift in Sources */,
+				067494E91EBC6996003C380D /* DPDocument.swift in Sources */,
 				067492121EB828B3003C380D /* AppDelegate.swift in Sources */,
 				067493D91EB82AF2003C380D /* Congress.m in Sources */,
 				067493CB1EB82AF2003C380D /* DPCipherMachine.m in Sources */,
@@ -1964,7 +1940,6 @@
 				067493F01EB82AF2003C380D /* PrimitiveCommandNode.m in Sources */,
 				067493E51EB82AF2003C380D /* AbstractNode.m in Sources */,
 				067493F31EB82AF2003C380D /* ProductList.m in Sources */,
-				067494431EB82AF2003C380D /* DPPNGImage.m in Sources */,
 				067493EB1EB82AF2003C380D /* InstructionHandler.m in Sources */,
 				067493E91EB82AF2003C380D /* DirectionNode.m in Sources */,
 				067493DE1EB82AF2003C380D /* Command.m in Sources */,
@@ -1976,8 +1951,10 @@
 				067493C51EB82AF2003C380D /* DPTextBox.m in Sources */,
 				067494981EB9BE6F003C380D /* GameEnvironmentFactory.swift in Sources */,
 				067494121EB82AF2003C380D /* MovieTicket.m in Sources */,
+				067494F91EBC73F4003C380D /* DPLevelDBImpl.swift in Sources */,
 				0674941F1EB82AF2003C380D /* HRDepartment.m in Sources */,
 				067494961EB98DC9003C380D /* WindowsMobileInterfaceController.swift in Sources */,
+				067494F51EBC6AD2003C380D /* DPString.swift in Sources */,
 				067494641EB82EF8003C380D /* zCircleShape.swift in Sources */,
 				067493C81EB82AF2003C380D /* BlackBorderDecorator.m in Sources */,
 				0674948C1EB98D14003C380D /* SymbianOperationController.swift in Sources */,
@@ -1986,13 +1963,13 @@
 				067493D51EB82AF2003C380D /* DPSearcher.m in Sources */,
 				0674949C1EB9BF1D003C380D /* AndroidEnvironmentFactory.swift in Sources */,
 				0674940B1EB82AF2003C380D /* DPOnState.m in Sources */,
+				067494F71EBC73E1003C380D /* DPMongoDBImpl.swift in Sources */,
 				067493D01EB82AF2003C380D /* WhiteIgoChessman.m in Sources */,
 				067493DF1EB82AF2003C380D /* HelpCommand.m in Sources */,
 				0674940D1EB82AF2003C380D /* DPScreen.m in Sources */,
 				067494821EB98613003C380D /* ImageReaderFactory.swift in Sources */,
-				067494411EB82AF2003C380D /* DPGIFImage.m in Sources */,
+				067494EB1EBC69BD003C380D /* DPTxtDocument.swift in Sources */,
 				067493D11EB82AF2003C380D /* IgoChessman.m in Sources */,
-				067494441EB82AF2003C380D /* DPMatrix.m in Sources */,
 				067494601EB82E9C003C380D /* zShape.swift in Sources */,
 				067494E61EBC6359003C380D /* Address.swift in Sources */,
 				0674940E1EB82AF2003C380D /* DPScreenLargerState.m in Sources */,
@@ -2002,7 +1979,6 @@
 				067493DC1EB82AF2003C380D /* VicePresident.m in Sources */,
 				067494681EB82F3D003C380D /* zTriangleShape.swift in Sources */,
 				067493FD1EB82AF2003C380D /* MementoCaretaker.m in Sources */,
-				067494401EB82AF2003C380D /* DPBMPImage.m in Sources */,
 				067494AE1EBA0CEE003C380D /* MemoryVideoPlayerBuilder.swift in Sources */,
 				067493F51EB82AF2003C380D /* ProductIterator.m in Sources */,
 				067493E11EB82AF2003C380D /* FBSettingWindow.m in Sources */,
