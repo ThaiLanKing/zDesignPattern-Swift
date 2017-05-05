@@ -107,10 +107,6 @@
 		0674941E1EB82AF2003C380D /* FADepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674933E1EB82AF1003C380D /* FADepartment.m */; };
 		0674941F1EB82AF2003C380D /* HRDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493401EB82AF1003C380D /* HRDepartment.m */; };
 		067494201EB82AF2003C380D /* Department.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493421EB82AF1003C380D /* Department.m */; };
-		0674943B1EB82AF2003C380D /* OperationAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493931EB82AF2003C380D /* OperationAdapter.m */; };
-		0674943C1EB82AF2003C380D /* BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493961EB82AF2003C380D /* BinarySearch.m */; };
-		0674943D1EB82AF2003C380D /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493981EB82AF2003C380D /* QuickSort.m */; };
-		0674943E1EB82AF2003C380D /* ScoreOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674939B1EB82AF2003C380D /* ScoreOperation.m */; };
 		0674943F1EB82AF2003C380D /* DPImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674939F1EB82AF2003C380D /* DPImage.m */; };
 		067494401EB82AF2003C380D /* DPBMPImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493A21EB82AF2003C380D /* DPBMPImage.m */; };
 		067494411EB82AF2003C380D /* DPGIFImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 067493A41EB82AF2003C380D /* DPGIFImage.m */; };
@@ -158,6 +154,11 @@
 		067494AC1EBA0CC3003C380D /* SimpleVideoPlayerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494AB1EBA0CC3003C380D /* SimpleVideoPlayerBuilder.swift */; };
 		067494AE1EBA0CEE003C380D /* MemoryVideoPlayerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494AD1EBA0CEE003C380D /* MemoryVideoPlayerBuilder.swift */; };
 		067494B01EBA0D0E003C380D /* NetworkVideoPlayerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494AF1EBA0D0E003C380D /* NetworkVideoPlayerBuilder.swift */; };
+		067494D51EBB0950003C380D /* DPMd5Encrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494D41EBB0950003C380D /* DPMd5Encrypt.swift */; };
+		067494D71EBB0975003C380D /* DPAESEncrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494D61EBB0975003C380D /* DPAESEncrypt.swift */; };
+		067494DE1EBB1AEE003C380D /* libSystem.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 067494DD1EBB1AEE003C380D /* libSystem.tbd */; };
+		067494E01EBC2A9F003C380D /* UserInfoOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494DF1EBC2A9F003C380D /* UserInfoOperation.swift */; };
+		067494E21EBC2B72003C380D /* UserInfoEncryptAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067494E11EBC2B72003C380D /* UserInfoEncryptAdapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -369,14 +370,6 @@
 		067493401EB82AF1003C380D /* HRDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRDepartment.m; sourceTree = "<group>"; };
 		067493411EB82AF1003C380D /* Department.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Department.h; sourceTree = "<group>"; };
 		067493421EB82AF1003C380D /* Department.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Department.m; sourceTree = "<group>"; };
-		067493921EB82AF2003C380D /* OperationAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationAdapter.h; sourceTree = "<group>"; };
-		067493931EB82AF2003C380D /* OperationAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationAdapter.m; sourceTree = "<group>"; };
-		067493951EB82AF2003C380D /* BinarySearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinarySearch.h; sourceTree = "<group>"; };
-		067493961EB82AF2003C380D /* BinarySearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinarySearch.m; sourceTree = "<group>"; };
-		067493971EB82AF2003C380D /* QuickSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
-		067493981EB82AF2003C380D /* QuickSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickSort.m; sourceTree = "<group>"; };
-		0674939A1EB82AF2003C380D /* ScoreOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreOperation.h; sourceTree = "<group>"; };
-		0674939B1EB82AF2003C380D /* ScoreOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreOperation.m; sourceTree = "<group>"; };
 		0674939E1EB82AF2003C380D /* DPImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPImage.h; sourceTree = "<group>"; };
 		0674939F1EB82AF2003C380D /* DPImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPImage.m; sourceTree = "<group>"; };
 		067493A11EB82AF2003C380D /* DPBMPImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPBMPImage.h; sourceTree = "<group>"; };
@@ -439,6 +432,12 @@
 		067494AB1EBA0CC3003C380D /* SimpleVideoPlayerBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleVideoPlayerBuilder.swift; sourceTree = "<group>"; };
 		067494AD1EBA0CEE003C380D /* MemoryVideoPlayerBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryVideoPlayerBuilder.swift; sourceTree = "<group>"; };
 		067494AF1EBA0D0E003C380D /* NetworkVideoPlayerBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkVideoPlayerBuilder.swift; sourceTree = "<group>"; };
+		067494D41EBB0950003C380D /* DPMd5Encrypt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPMd5Encrypt.swift; sourceTree = "<group>"; };
+		067494D61EBB0975003C380D /* DPAESEncrypt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPAESEncrypt.swift; sourceTree = "<group>"; };
+		067494DB1EBB13AF003C380D /* zDesignPattern-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "zDesignPattern-Bridging-Header.h"; sourceTree = "<group>"; };
+		067494DD1EBB1AEE003C380D /* libSystem.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSystem.tbd; path = usr/lib/libSystem.tbd; sourceTree = SDKROOT; };
+		067494DF1EBC2A9F003C380D /* UserInfoOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoOperation.swift; sourceTree = "<group>"; };
+		067494E11EBC2B72003C380D /* UserInfoEncryptAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoEncryptAdapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -446,6 +445,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				067494DE1EBB1AEE003C380D /* libSystem.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +463,7 @@
 			isa = PBXGroup;
 			children = (
 				067492101EB828B3003C380D /* zDesignPattern-Swift */,
+				067494DC1EBB1ACD003C380D /* Frameworks */,
 				067492251EB828B3003C380D /* zDesignPattern-SwiftTests */,
 				0674920F1EB828B3003C380D /* Products */,
 			);
@@ -487,6 +488,7 @@
 				067492181EB828B3003C380D /* Assets.xcassets */,
 				0674921A1EB828B3003C380D /* LaunchScreen.storyboard */,
 				0674921D1EB828B3003C380D /* Info.plist */,
+				067494DB1EBB13AF003C380D /* zDesignPattern-Bridging-Header.h */,
 			);
 			path = "zDesignPattern-Swift";
 			sourceTree = "<group>";
@@ -1596,8 +1598,8 @@
 		067493911EB82AF2003C380D /* Adaptee */ = {
 			isa = PBXGroup;
 			children = (
-				067493921EB82AF2003C380D /* OperationAdapter.h */,
-				067493931EB82AF2003C380D /* OperationAdapter.m */,
+				067494D41EBB0950003C380D /* DPMd5Encrypt.swift */,
+				067494D61EBB0975003C380D /* DPAESEncrypt.swift */,
 			);
 			path = Adaptee;
 			sourceTree = "<group>";
@@ -1605,10 +1607,7 @@
 		067493941EB82AF2003C380D /* Adapter */ = {
 			isa = PBXGroup;
 			children = (
-				067493951EB82AF2003C380D /* BinarySearch.h */,
-				067493961EB82AF2003C380D /* BinarySearch.m */,
-				067493971EB82AF2003C380D /* QuickSort.h */,
-				067493981EB82AF2003C380D /* QuickSort.m */,
+				067494E11EBC2B72003C380D /* UserInfoEncryptAdapter.swift */,
 			);
 			path = Adapter;
 			sourceTree = "<group>";
@@ -1616,8 +1615,7 @@
 		067493991EB82AF2003C380D /* Target */ = {
 			isa = PBXGroup;
 			children = (
-				0674939A1EB82AF2003C380D /* ScoreOperation.h */,
-				0674939B1EB82AF2003C380D /* ScoreOperation.m */,
+				067494DF1EBC2A9F003C380D /* UserInfoOperation.swift */,
 			);
 			path = Target;
 			sourceTree = "<group>";
@@ -1749,6 +1747,15 @@
 			path = Role_ConcreteProduct;
 			sourceTree = "<group>";
 		};
+		067494DC1EBB1ACD003C380D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				067494DD1EBB1AEE003C380D /* libSystem.tbd */,
+			);
+			name = Frameworks;
+			path = "zDesignPattern-Swift/Frameworks";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1857,7 +1864,6 @@
 				067493F91EB82AF2003C380D /* DPMTextBox.m in Sources */,
 				067493FE1EB82AF2003C380D /* ChessmanMemento.m in Sources */,
 				067494A61EBA0A32003C380D /* VideoPlayer.swift in Sources */,
-				0674943D1EB82AF2003C380D /* QuickSort.m in Sources */,
 				067493E41EB82AF2003C380D /* WindowHandler.m in Sources */,
 				067494031EB82AF2003C380D /* ConcreteAllyControlCenter.m in Sources */,
 				0674941D1EB82AF2003C380D /* EmployeeList.m in Sources */,
@@ -1887,7 +1893,6 @@
 				067493DB1EB82AF2003C380D /* President.m in Sources */,
 				067493E31EB82AF2003C380D /* HelpHandler.m in Sources */,
 				067494051EB82AF2003C380D /* AccountState.m in Sources */,
-				0674943B1EB82AF2003C380D /* OperationAdapter.m in Sources */,
 				067494421EB82AF2003C380D /* DPJPGImage.m in Sources */,
 				0674941E1EB82AF2003C380D /* FADepartment.m in Sources */,
 				067494171EB82AF2003C380D /* BankAccount.m in Sources */,
@@ -1896,6 +1901,7 @@
 				067494021EB82AF2003C380D /* AllyControlCenter.m in Sources */,
 				067493FB1EB82AF2003C380D /* ConcreteMediator.m in Sources */,
 				067493CA1EB82AF2003C380D /* EncryptFacade.m in Sources */,
+				067494E21EBC2B72003C380D /* UserInfoEncryptAdapter.swift in Sources */,
 				067494941EB98DB3003C380D /* AndroidInterfaceController.swift in Sources */,
 				067494001EB82AF2003C380D /* Player.m in Sources */,
 				067494091EB82AF2003C380D /* DPSwitch.m in Sources */,
@@ -1912,6 +1918,7 @@
 				067494061EB82AF2003C380D /* NormalState.m in Sources */,
 				067493C61EB82AF2003C380D /* DPWindow.m in Sources */,
 				067493D31EB82AF2003C380D /* AccessValidator.m in Sources */,
+				067494D51EBB0950003C380D /* DPMd5Encrypt.swift in Sources */,
 				0674948E1EB98D3C003C380D /* AndroidOperationController.swift in Sources */,
 				067493F81EB82AF2003C380D /* DPMList.m in Sources */,
 				067494471EB82AF2003C380D /* WindowsImp.m in Sources */,
@@ -1925,6 +1932,7 @@
 				0674944D1EB82AF2003C380D /* DPVideoFile.m in Sources */,
 				067494A81EBA0AE9003C380D /* VideoPlayerBuilder.swift in Sources */,
 				067493FA1EB82AF2003C380D /* DPMComponent.m in Sources */,
+				067494E01EBC2A9F003C380D /* UserInfoOperation.swift in Sources */,
 				067494481EB82AF2003C380D /* DPImageImp.m in Sources */,
 				0674946A1EB833A2003C380D /* zShapeFactory.swift in Sources */,
 				067493C91EB82AF2003C380D /* ScrollBarDecorator.m in Sources */,
@@ -1940,6 +1948,7 @@
 				067492121EB828B3003C380D /* AppDelegate.swift in Sources */,
 				067493D91EB82AF2003C380D /* Congress.m in Sources */,
 				067493CB1EB82AF2003C380D /* DPCipherMachine.m in Sources */,
+				067494D71EBB0975003C380D /* DPAESEncrypt.swift in Sources */,
 				0674940F1EB82AF2003C380D /* DPScreenLargestState.m in Sources */,
 				067493CC1EB82AF2003C380D /* DPFileReader.m in Sources */,
 				067494201EB82AF2003C380D /* Department.m in Sources */,
@@ -1967,13 +1976,11 @@
 				067494861EB986BC003C380D /* JpgImageReaderFactory.swift in Sources */,
 				067493C51EB82AF2003C380D /* DPTextBox.m in Sources */,
 				067494981EB9BE6F003C380D /* GameEnvironmentFactory.swift in Sources */,
-				0674943E1EB82AF2003C380D /* ScoreOperation.m in Sources */,
 				067494121EB82AF2003C380D /* MovieTicket.m in Sources */,
 				0674941F1EB82AF2003C380D /* HRDepartment.m in Sources */,
 				067494961EB98DC9003C380D /* WindowsMobileInterfaceController.swift in Sources */,
 				067494641EB82EF8003C380D /* zCircleShape.swift in Sources */,
 				067493C81EB82AF2003C380D /* BlackBorderDecorator.m in Sources */,
-				0674943C1EB82AF2003C380D /* BinarySearch.m in Sources */,
 				0674948C1EB98D14003C380D /* SymbianOperationController.swift in Sources */,
 				067493CE1EB82AF2003C380D /* DPCoordinates.m in Sources */,
 				067493D41EB82AF2003C380D /* DPLogger.m in Sources */,
@@ -2139,6 +2146,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ZYH.zDesignPattern-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "zDesignPattern-Swift/zDesignPattern-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -2151,6 +2159,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ZYH.zDesignPattern-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "zDesignPattern-Swift/zDesignPattern-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

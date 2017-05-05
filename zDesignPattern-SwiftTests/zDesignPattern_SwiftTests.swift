@@ -28,7 +28,8 @@ class zDesignPattern_SwiftTests: XCTestCase {
 //        tAbstractFactory()
 //        tSingleton()
 //        tPrototype()
-        tBuilder()
+//        tBuilder()
+        tAdapter()
         print("===========测试结束============")
     }
     
@@ -117,6 +118,16 @@ class zDesignPattern_SwiftTests: XCTestCase {
         
         videoPlayerBuilder = MemoryVideoPlayerBuilder()
         videoPlayerBuilder.construct()
+    }
+    
+    func tAdapter() -> Void {
+        let userInfoOP = UserInfoEncryptAdapter()
+        let encryptPwd = userInfoOP.encrypt(password: "myPassword")
+        let encryptEmail = userInfoOP.encrypt(email: "123@qq.com")
+        print("encryptPwd = \(encryptPwd)")
+        
+        let decryptEmail = userInfoOP.decrypt(email: encryptEmail)
+        print("decryptEmail = \(decryptEmail)")
     }
     
     func testPerformanceExample() {
